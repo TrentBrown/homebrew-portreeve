@@ -1,25 +1,25 @@
 class Portreeve < Formula
   desc "Local authority for development ports"
   homepage "https://github.com/TrentBrown/portreeve"
-  version "0.1.0"
+  version "0.1.0-preview.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.3/portreeve-v0.1.0-macos-arm64", using: :nounzip
-      sha256 "aa9e95414a27a97e87df44e2c159906ca81b6f47394fc40313bcecb982161627"
+      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.4/portreeve-v0.1.0-preview.4-macos-arm64", using: :nounzip
+      sha256 "0f7e6dc176e1fd4f5c37eec790cdb0babfd98cdc4468f71b1938cb417560904c"
     else
-      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.3/portreeve-v0.1.0-macos-x64", using: :nounzip
-      sha256 "efb7a5b52f3be58f4fadd5f72bf73f70193719af4c2f9aa18c5eba1b2c116ae2"
+      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.4/portreeve-v0.1.0-preview.4-macos-x64", using: :nounzip
+      sha256 "dc05340d992494cc15a74d6c3f8196680e9bff3bdaa4fa104ad5772deb66fd75"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.3/portreeve-v0.1.0-linux-arm64", using: :nounzip
-      sha256 "de937cae5efceb09c2403c5624490ae2ac56d3843acd1a4f7254fdec78064a28"
+      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.4/portreeve-v0.1.0-preview.4-linux-arm64", using: :nounzip
+      sha256 "039216a3e5ba76c7c80a9acbc4bf7795a4bf228cbcff7b4afdcae541a47df35b"
     else
-      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.3/portreeve-v0.1.0-linux-x64", using: :nounzip
-      sha256 "22ff3aa2f1611730d27afc1eff4e1c42eb5b1e903ef8739b572884d546234545"
+      url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.4/portreeve-v0.1.0-preview.4-linux-x64", using: :nounzip
+      sha256 "f7d23891f78530fbec6db7115b8797dbfb5dd282d833d454599fb52462a69d8e"
     end
   end
 
