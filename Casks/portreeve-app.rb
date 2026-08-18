@@ -2,10 +2,10 @@ cask "portreeve-app" do
   arch arm: "arm64", intel: "x64"
 
   version "0.1.0"
-  sha256 arm: "0a3d29a90cace6effb80d5aa9186ec1994440ba3ae12da51fa595a59a9f4d9d1",
-         intel: "ec083d68d1030c4300743fd3ff68f28ee7bf387d774fbeec8f3ca6c1fe5283a7"
+  sha256 arm: "f32ee8c44d31f428e00685acd828c1379d824074d7421bb13807dc14574191dd",
+         intel: "5b5f23e475c4113a3bfa693ee63858a81ed9ec30df0196b812ae8daaf056c129"
 
-  url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.2/PortReeve-0.1.0-macos-#{arch}.dmg"
+  url "https://github.com/TrentBrown/portreeve/releases/download/v0.1.0-preview.3/PortReeve-0.1.0-macos-#{arch}.dmg"
   name "PortReeve"
   desc "Local authority for development ports"
   homepage "https://github.com/TrentBrown/portreeve"
